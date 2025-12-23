@@ -15,5 +15,8 @@ export class Item {
   description: string;
 
   @Column()
+  category: string;
+
+  @Column()
   location: string;
 }
